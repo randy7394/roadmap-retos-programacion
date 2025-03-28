@@ -1,35 +1,56 @@
-# https://www.python.org/
-
-# Comentario en una linea
-
 '''
-Comentario
-en
-varias
-lineas
+¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
+Recuerda que todas las instrucciones de participación están en el
+repositorio de GitHub.
+
+Lo primero... ¿Ya has elegido un lenguaje?
+- No todos son iguales, pero sus fundamentos suelen ser comunes.
+- Este primer reto te servirá para familiarizarte con la forma de participar
+  enviando tus propias soluciones.
+
+EJERCICIO:
+- Crea un comentario en el código y coloca la URL del sitio web oficial del
+  lenguaje de programación que has seleccionado.
+- Representa las diferentes sintaxis que existen de crear comentarios
+  en el lenguaje (en una línea, varias...).
+- Crea una variable (y una constante si el lenguaje lo soporta).
+- Crea variables representando todos los tipos de datos primitivos
+  del lenguaje (cadenas de texto, enteros, booleanos...).
+- Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+
+¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
+debemos comenzar por el principio.
 '''
 
-"""
-Esto tambien
-es un comentario
-en varias
-lineas
-"""
+# 1. Esto es un comentario de una sola linea en Python https://www.python.org/
+'''
+# 2. Esto es un comentario de varias lineas en Python
+  y puede extenderse en varias lineas
+'''
 
-my_variable = "Esta es mi varibale"
-my_variable = "Este es el nuevo valor de my_variable"
+# 3. Variables y Constantes
+my_variable = "Mi variable" # Esto es una variable
+my_variable = "Nuevo valor de mi variable"  # Reasignacion de la variable declarada
 
-MY_CONSTANT = "Esta es mi constante. Por favor no cambiar!" #Esto es una constante por convencion
+# IMPORTANTE: Python no tiene constantes, pero por convención se escriba en Upper Snake Case para indicar que es una.
 
-my_integer = 1
-my_float = 1.5
-my_boolean = False
-my_string = "Hola mundo!"
+MY_CONSTANT = "Mi constante"    #Por convencion
+MY_CONSTANT = "AHLDJAF;DLKJAS;DLKAF"
 
-print(f"Hola Python!")
-print(type(my_variable))
-print(type(MY_CONSTANT))
-print(type(my_integer))
+# 4. Variables con tipos de datos primitivos
+my_int = 1              # Int
+my_float = 1.5          # float
+my_bool = True          # Boolean
+my_bool = False         # Boolean
+my_str = "Mi string"    # String
+my_other_str = 'Mi otro string' # String
+none_value = None       # None
+
+# 5. Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+print("¡Hola, Python!")
+print(type(my_int))
 print(type(my_float))
-print(type(my_boolean))
-print(type(my_string))
+print(type(my_bool))
+print(type(my_str))
+print(type(my_other_str))
+print(type(none_value))
